@@ -25,6 +25,6 @@ wget
 apscheduler
 yt_dlp
 cachetools==5.1.0
-git+https://github.com/ADITYAxSERVER/downloader
+git+https://github.com/yt-dlp/yt-dlp
 numpy
 pykeyboard
