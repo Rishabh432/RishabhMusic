@@ -18,22 +18,22 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "600"))
 STRING_SESSION = getenv("STRING_SESSION")
-BOT_USERNAME = getenv("BOT_USERNAME", "Amalamusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "NoobMusicXbot")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6168241978").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5882981645").split()))
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5566634044").split())
+    map(int, getenv("OWNER_ID", "5318059833").split())
 )  # Input type must be interger
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
 #•••••••••••••••••••••••• Mongodb Url Stuff & Loggroupid •••••••••••
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001792664572")) 
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001975524814")) 
 
 MONGODB_URL = getenv("MONGODB_URL")
 #________________________ Updates 🍃 & Music bot name________________
-NETWORK = getenv("NETWORK", "Telugucodersupdates")
-GROUP = getenv("GROUP", "tgshadow_fighters")
-BOT_NAME = getenv("BOT_NAME", "Amala Music")
+NETWORK = getenv("NETWORK", "couple_flirting")
+GROUP = getenv("GROUP", "sticker_bakchodi_group")
+BOT_NAME = getenv("BOT_NAME", "Noob Music")
 BANNED_USERS = filters.user()
 
 #************************* Image Stuff 💕 ****************************
